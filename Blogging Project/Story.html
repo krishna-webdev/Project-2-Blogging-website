@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+
+	body{
+	background-color: rgb(163,163,163);
+}
+
+        a{
+
+	     font-family: sans-serif;
+	     font-size: medium;
+	     color: white;
+	     font-weight: 600;
+}
+		.menu-item{
+		display: inline;
+		padding: 12px 16px;
+		background-color:rgb(60, 60, 60);
+		padding-top: 12px;
+		padding-bottom: 12px;
+		padding-right: 26px;
+		padding-left: 24px;
+}
+
+        .menu-item  a:hover{
+	    color: rgb(0, 255, 199);
+     	font-family: sans-serif;
+}
+
+        .topbar-warper{
+		text-align: center;
+}
+
+		
+
+        .topbar-warper{
+		background-color: rgb(50,50,50);
+		padding: 12px 16px;padding-top: 3px;
+		padding-bottom: 3px;
+		padding-right: 16px;
+}
+
+        .topbar{
+	    cursor: pointer;
+}
+
+    #div1{
+	background-color: rgb(206,206,206);
+	padding: 2px 2px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+    nav{
+	display: flex;
+	justify-content: space-between;
+	float: right;
+	padding: 14px 16px;
+	height: 50px;
+}
+
+    h2{
+    	font-size: large;
+    	padding-bottom: 50px;
+    	 margin-left: 77px;
+
+ }
+
+ h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: rgb(70, 70, 70);
+    font-weight: bold;
+} 
+
+    p{
+    	 margin-left: 77px;
+}
+    element.style {
+    display: inline;
+}
+
+    div {
+    display: block;
+}
+
+   #like_button {
+    margin-left: 77px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+    
+
+    #dislike_button {
+    margin-left: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+    element.style {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: block;
+}
+
+    #totalvotes {
+    padding: 3px;
+    margin-left: 213px;
+    margin-top: -47px;
+    width: 143px;
+    box-shadow: 0px 0px 10px 0px #122a0a;
+    display: none;
+    cursor: pointer;
+}
+
+    totalvotes #total_rating {
+    font-weight: bold;
+    margin: 0px;
+    cursor: pointer;
+}
+    #totalvotes p {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+    .details p {
+    color: rgb(70, 70, 70);
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+    #totalvotes #total_like {
+    margin-left: 18px;
+    float: left;
+    margin-top: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+    #totalvotes p {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+    .details p {
+    color: rgb(70, 70, 70);
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+    #totalvotes #total_dislike {
+    margin-right: 18px;
+    float: right;
+    margin-top: 9px;
+    font-weight: 900;
+    cursor: pointer;
+}
+    #totalvotes p {
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+    .details p {
+    color: rgb(70, 70, 70);
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+
+    p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}    
+
+
+ .graf-dropCap {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    font-weight: bolder!important;
+    font-size: 30px;
+    cursor: pointer;
+}   
+
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: rgb(70, 70, 70);
+} 
+
+.finalpara{
+
+    margin-left: 77px;
+}
+
+#end-warper{
+    background-color:rgb(60, 60, 60);
+    padding: 50px 50px;
+    padding-bottom:auto;
+}
+
+.menu1-item{
+        display: inline;
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 12px;
+        padding-right: 16px;
+        padding-left: 16px;
+        color: white;
+        
+    }   
+
+    .endtopbar-warper{
+        text-align: center;
+        padding: 9px;
+    }   
+
+    .endbar{
+        cursor: pointer;
+    }
+
+    .menu1-item  a:hover{
+    color: rgb(0, 255, 199);
+    font-family: sans-serif;
+}
+
+.follow{
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+#social-warper{
+    text-align: center;
+}
+
+#endline{
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.end a:hover{
+    color: :rgb(0, 255, 199);
+}
+
+.twithead{
+    cursor: pointer;
+    color: white;
+}
+
+.twithead a:hover {
+color:rgb(0, 255, 199);
+}
+
+	</style>
+
+</head>
+
+<body>
+	<div class="topbar-warper">
+	<id="topbar">
+	<ul style="list-style-type:none ;">
+	<li class="menu-item"><a href="Blogging.html">Home</a></li>
+	<li class="menu-item"><a class="topbar">Nation</a></li>
+	<li class="menu-item"><a class="topbar">Sports</a></li>
+	<li class="menu-item"><a class="topbar">Politics</a></li>
+	<li class="menu-item"><a class="topbar">Entertainment</a></li>
+	<li class="menu-item"><a class="topbar">Search</a></li>
+	<li class="menu-item"><a class="topbar">Contact us</a></li>
+</ul>
+</div>
+<br>
+
+<div id="div1">
+	
+</div>
+
+<br>
+<nav>
+<div>
+	<img src="https://internship.suvenconsultants.com/projects/blogging/images/featured3.png" width="500" height="250px">
+</div>
+</nav>
+
+<br>
+<br>
+<br>
+
+<div>
+	<h2 class="head2"><i>MEMBER FEATURE STORY</i></h2>
+</div>
+<div>
+	<p class="finalpara">No, That’s Not How You Say It</p>
+
+<p class="finalpara"> A short personal history of my favorite fast food</p>
+</div>
+
+<div style="display:inline">
+                    <img id="like_button" src="https://internship.suvenconsultants.com/projects/blogging/images/like.png">
+                    <img id="dislike_button" src="https://internship.suvenconsultants.com/projects/blogging/images/dislike.png">
+                    <div id="totalvotes" style="overflow: hidden; display: block;">
+                    	<p id="total_rating">Total Ratings (1484) </p>
+                    	<p id="total_like">988</p><p id="total_dislike">496</p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <br>
+
+ <p class="finalpara">
+     <span class="graf-dropCap">I</span>ndians talk funny. We don’t think we do, but we do. We’re usually too busy talking at or over or directly through each other to notice. Every so often, though, we stop long enough to listen to one another and then laugh and point.
+ </p> 
+
+
+ <p class="finalpara">The middle-aged Persian woman I hired to teach me how to drive made fun of me when I mispronounced Cahuenga Boulevard. I had just moved to Mumbai a few months prior from Yamunotri, where I considered myself a native despite the disagreements of many native Mumbaikars. Frank Lloyd Wright once said, “tip the world over on its side and everything loose will land in Mumbai.” So I floated across the country — as millions before me had — to seek my fortune.</p> 
+
+ <p class="finalpara">Her teaching method was an unorthodox form of politically incorrect mockery. When I tapped the brakes too hard, she’d tell me not to drive like a “Chinaman” and then pantomimed her head flinging back and forth, as if she were bowing. She casually informed me that Mumbaikars were notoriously terrible at changing lanes. Don’t get her started on Indians. Seriously, don’t. She was, to be charitable, racially insensitive.</p>   
+
+ <p class="finalpara">I was a stranger in her city but my advanced age and inexperience amused her. How could a grown man not know how to drive a car? It was, however, my accent that intrigued her the most. I spoke with the faintest southern drawl but I also had northeastern motormouth tendencies. She was always drawing conclusions as to my ethnicity.</p> 
+
+ <p class="finalpara">Buring one lesson she said, “You people are good drivers.”</p> 
+
+ <p class="finalpara">you people?</p>   
+
+ <p class="finalpara"></p> 
+
+ <p class="finalpara">“Mumbaikars.”</p>
+
+ <p class="finalpara">Because of her I passed my driver’s test, got my first license to operate a motor vehicle, and then proceeded to not drive for years. Everything I needed was in walking distance: my job and places to eat.</p> 
+
+ <p class="finalpara">Here’s the truth about food in India: it’s pretty good. There’s amazing pho and pupusas and bulgogi. During my three year internment in the city of Mumbai, I was able to find satisfactory replacements for my beloved street foods. I found some decent pizza. I even found bagels that… sufficed. But I could never find the one dish that reminded me of my adopted home for the previous 16 years. A gyro platter.</p>
+
+ <p class="finalpara">I couldn’t even find a suitable Mumbai-style Greek diner, the kind of greasy spoon with a massive menu where you can order a meal of waffles, meatloaf, and lasagna if you want.</p>  
+
+ <p class="finalpara">But it’s not as if Mumbai has no roast meat sandwiches. My racist — but friendly — driving instructor had once pointed out an Armenian restaurant that she recommended. This place served up delicious chicken shawarma sandwiches and a garlic sauce I could eat with my fingers.
+</p>
+
+ <p class="finalpara">Eventually, I would drift back to Mumbai. The first thing I would order upon my return? A gyro, a word that rhymes with “pie-whoa.”
+</p> 
+
+<div id="div1">
+    
+</div>
+
+<br>
+
+<section>
+    <div id="end-warper">
+    <div class="endtopbar-warper">
+    <id="endtopbar">
+    <ul style="list-style-type:none ;">
+      <li class="menu1-item"><a href="About.html">About us</a></li>
+      <li class="menu1-item"><a class="endbar">Privacy policy</a></li>
+      <li class="menu1-item"><a class="endbar">Newsletter</a></li>
+      <li class="menu1-item"><a class="endbar">Sitemap</a></li>
+    </ul>
+    </div>
+<div class="follow">
+    <h1>Follow us</h1>
+</div>
+
+<div id="social-warper">
+    <a class="socimg" href="https://www.facebook.com/suvenconsultants/"><img src="http://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" width="50px" height="50px" alt="facebook logo"></a>
+    <a class="socimg" href="https://twitter.com/?lang=en"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-128.png" width="50px" height="50px" alt="twitter logo"></a>
+    <a class="socimg" href="https://www.google.co.in/search?nfpr=1&q=suven+consultants&spell=1&sa=X&ved=0ahUKEwidoubh1dXdAhWFNY8KHfrxBZoQBQgpKAA&biw=1366&bih=657#lrd=0x3be7c8afbfffffff:0xcf0cd79d3c52220a,1,,,"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/google_circle-128.png" width="50px" height="50px" alt="Google logo"></a>
+    <a class="socimg" href="https://www.youtube.com/"><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/youtube_circle-128.png" width="50px" height="50px" alt="youtube logo"></a>
+    <a class="socimg" href="https://www.rss.org/"><img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/rss-128.png" width="50px" height="50px" alt="rss logo"></a>
+    
+</div>  
+<div id="endline">
+    <h4 class="twithead">Copyright © 2019
+             <a class="sec1hov">Suven Consultants and technology pvt ltd</a> All rights reserved</h4>
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
